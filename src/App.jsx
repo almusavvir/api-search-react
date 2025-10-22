@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import React, { useEffect, useState } from "react";
 
 
 function App() {
+
+  const [posts, setPosts] = useState([])
 
   const comments[] = fetch("https://jsonplaceholder.typicode.com/posts")
     .then(response => response.json())
