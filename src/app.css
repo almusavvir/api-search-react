@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #2c3e50;
+    padding: 1rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.searchbox {
+    margin: 2rem auto;
+    width: 80%;
+    width: 400px;
+    max-width: 600px;
+    display: flex;
+    height: 2rem;
+    border-radius: 25px;
+    transition: width 0.3s ease;
+}
+
+.searchbox:focus {
+    width: 600px;
+}
+
