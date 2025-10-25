@@ -8,8 +8,6 @@ function App() {
   const [input, setInput] = useState("");
   const [posts, setPosts] = useState([])
 
-  console.log("Input value:", input);
-
   const fetchPosts = (value) => {
     fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
